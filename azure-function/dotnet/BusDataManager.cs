@@ -117,7 +117,7 @@ namespace GetBusData
                 return result;
             }            
         }
-
+    // trigger
         public async Task TriggerLogicApp(ActivatedGeoFence geoFence)
         {
             var content = JObject.Parse("{" + $"'value1':'{geoFence.VehicleId}', 'value2': '{geoFence.GeoFenceStatus}'" + "}");
